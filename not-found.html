@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>404 - Page Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Outfit", sans-serif;
+        background: #f4f4f4;
+        color: #1f2426;
+      }
+
+      .error-section {
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 20px;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 700px;
+        margin: auto;
+      }
+
+      .error-code {
+        font-size: 120px;
+        font-weight: 800;
+        margin: 0;
+        background: linear-gradient(180deg, #2c87f7 0%, #1e3bcd 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .error-title {
+        font-size: 32px;
+        font-weight: 700;
+        margin: 20px 0 15px;
+      }
+
+      .error-text {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 40px;
+        line-height: 1.6;
+      }
+
+      /* Buttons */
+      .error-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .btn-primary {
+        background: #2c87f7;
+        color: #fff;
+        padding: 14px 28px;
+        border-radius: 40px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: 0.3s ease;
+      }
+
+      .btn-primary:hover {
+        background: #2c87f7;
+      }
+
+      .btn-outline {
+        border: 2px solid #1e3bcd;
+        color: #1e3bcd;
+        padding: 14px 28px;
+        border-radius: 40px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: 0.3s ease;
+      }
+
+      .btn-outline:hover {
+        background: #1e3bcd;
+        color: #fff;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .error-code {
+          font-size: 90px;
+        }
+
+        .error-title {
+          font-size: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="error-section">
+      <div class="container">
+        <div class="error-content">
+          <h1 class="error-code">404</h1>
+
+          <h2 class="error-title">Error 404 Page not found.</h2>
+
+          <p class="error-text">
+            Sorry, we’ve lost the page you were looking for.
+          </p>
+
+          <div class="error-buttons">
+            <a href="/" class="btn-primary">Back to Home</a>
+            <a href="/contact" class="btn-outline">Contact Support</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

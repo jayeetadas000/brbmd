@@ -1,0 +1,998 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>brbMD+ | Perform Better, Feel Stronger</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand fw-bold" href="#">
+          <img src="images/landing-header-logo.png" alt="logo" height="40" />
+        </a>
+
+        <!-- Hamburger Button (Mobile) -->
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#mobileMenu"
+          aria-controls="mobileMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Desktop Menu -->
+        <div
+          class="collapse navbar-collapse justify-content-end d-none d-lg-flex"
+        >
+          <a href="#" class="nav-link me-4">Our Formula</a>
+          <a href="#" class="nav-link me-4">Steps</a>
+          <a href="#" class="nav-link me-4">Testimonials</a>
+          <a href="#" class="nav-link me-4">FAQ</a>
+          <a href="#" class="btn btn-primary rounded-pill px-4">Get Started</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--  Offcanvas Side Menu -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Menu</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item mb-3">
+            <a href="#" class="nav-link">Our Formula</a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="#" class="nav-link">Steps</a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="#" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item mb-3">
+            <a href="#" class="nav-link">FAQ</a>
+          </li>
+          <li class="nav-item mt-3">
+            <a href="#" class="btn btn-primary w-100 rounded-pill">
+              Get Started
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="hero__section">
+      <div class="container-fluid text-center">
+        <div class="hero-main-div">
+          <div class="hero-wrapper">
+            <!-- Background Video -->
+            <video autoplay muted loop playsinline class="hero-video">
+              <source src="images/hero-vid.mp4" type="video/mp4" />
+            </video>
+
+            <!-- White Mask Overlay -->
+
+            <div class="hero-content text-white">
+              <p class="small-text">
+                <img src="images/star.png" alt="logo" /> 4.8/5 from 2,000+
+                verified reviews
+              </p>
+
+              <h1>
+                Perform Better.<br />
+                Feel Stronger.<br />
+                Every Time.
+              </h1>
+
+              <p class="desc">
+                Advanced, all-natural designer for rapid arousal, long-lasting
+                confidence, and peak performance. Discreet, customizable, and
+                always ready when you are.
+              </p>
+            </div>
+            <div class="hero-footer">
+              <a href="#" class="btn custom-btn">
+                <img src="images/banner-button.png" alt="logo" />
+              </a>
+
+              <div class="hero-features">
+                <div class="row text-center text-white">
+                  <div class="col">
+                    <div class="feature-item">
+                      <img src="images/fi_1.png" alt="icon" />
+                      <p>Crush performance doubts</p>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="feature-item">
+                      <img src="images/fi_2.png" alt="icon" />
+                      <p>Never miss a chance</p>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="feature-item">
+                      <img src="images/fi_3.png" alt="icon" />
+                      <p>Discreet, lightning-fast home delivery</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="feature-item">
+                      <img src="images/fi_4.png" alt="icon" />
+                      <p>Advanced formulas</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="feature-item">
+                      <img src="images/fi_5.png" alt="icon" />
+                      <p>Physician-approved meds</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-mask"></div>
+        </div>
+      </div>
+    </section>
+    <section class="mobile-feture-sec">
+      <div class="features">
+        <div class="feature-item">
+          <img src="images/fi_1.png" alt="icon" />
+          <p>Crush performance doubts</p>
+        </div>
+
+        <div class="feature-item">
+          <img src="images/fi_2.png" alt="icon" />
+          <p>Never miss a chance</p>
+        </div>
+
+        <div class="feature-item">
+          <img src="images/fi_3.png" alt="icon" />
+          <p>Discreet, lightning-fast home delivery</p>
+        </div>
+
+        <div class="feature-item">
+          <img src="images/fi_4.png" alt="icon" />
+          <p>Advanced formulas</p>
+        </div>
+
+        <div class="feature-item">
+          <img src="images/fi_5.png" alt="icon" />
+          <p>Physician-approved meds</p>
+        </div>
+      </div>
+    </section>
+    <section class="brb-sec">
+      <div class="brb-sec-content-sec">
+        <div class="brb-sec-head">
+          <h2 class="fw-bold mb-3">
+            More Than Just an Erector — <br /><span class="text-danger"
+              >Ignite Your Desire</span
+            >
+          </h2>
+          <p>
+            SteadyRISE rapid-dissolving mints don't just focus on performance;
+            they actively boosts libido and arousal, so you’re ready for
+            intimacy whenever the moment is right.
+          </p>
+        </div>
+      </div>
+      <div class="mask-image-sec">
+        <video autoplay muted loop playsinline class="ingred-video">
+          <source src="images/vid_bg.mp4" type="video/mp4" />
+        </video>
+        <img src="images/MD_mask1.png" class="mask-image" alt="mask img" />
+      </div>
+
+      <p class="brb-p">
+        4-in-1 Combo Unlocks a <span>Synergistic</span> Mechanism of Action
+      </p>
+    </section>
+
+    <section class="problem-section">
+      <div class="container">
+        <h2 class="section-title">The Problem with Traditional ED Meds</h2>
+
+        <p class="section-subtitle">
+          Mechanical, temporary fixes that feel forced and inconvenient
+        </p>
+
+        <div class="problem-grid">
+          <!-- 1 -->
+          <div class="card small dark">
+            <img src="images/img1.png" alt="" />
+            <!-- <div class="overlay">
+          <h4>Side effects, planning,<br>inconsistent results</h4>
+        </div> -->
+          </div>
+
+          <!-- 2 -->
+          <div class="card medium">
+            <img src="images/img2.png" alt="" />
+            <!-- <div class="overlay">
+          <h4>Mechanical fix</h4>
+          <p>Function without desire</p>
+        </div> -->
+          </div>
+
+          <!-- 3 (Center Big) -->
+          <div class="card large">
+            <video autoplay muted loop playsinline class="ingred-video">
+              <source src="images/black-vid.mp4" type="video/mp4" />
+            </video>
+            <!-- <img src="images/img3.png" alt=""> -->
+            <div class="overlay">
+              <h4>Hollow wins</h4>
+              <p>Performance that feels forced</p>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="card medium red">
+            <img src="images/img4.png" alt="" />
+            <!-- <div class="overlay">
+          <h4>Partial response</h4>
+          <p>Sometimes it's not enough</p>
+        </div> -->
+          </div>
+
+          <!-- 5 -->
+          <div class="card small dark">
+            <img src="images/img5.png" alt="" />
+            <!-- <div class="overlay">
+          <h4>Awkward timing</h4>
+          <p>Pills require planning</p>
+        </div> -->
+          </div>
+        </div>
+
+        <p class="bottom-text">
+          You deserve an all-around solution that brings back attraction,
+          excitement, and real connection — not just an erection.
+        </p>
+
+        <div class="scroll-down">↓</div>
+      </div>
+    </section>
+
+    <section class="ingredients-section text-white">
+      <video autoplay muted loop playsinline class="ingred-video">
+        <source src="images/bg.mp4" type="video/mp4" />
+      </video>
+      <div class="container-fluid">
+        <div class="ingredients-header">
+          <div>
+            <h2 class="text-left mb-5">
+              One Formula. Four Powerhouse Ingredients. Total Performance
+              Control.
+            </h2>
+            <h4>How it Works — Ingredients & Benefits</h4>
+          </div>
+          <div>
+            <p>
+              Unleash the full potential of your body and desire with our
+              cutting-edge 4-in-1 blend. Designed to deliver longer-lasting
+              erections, lightning-fast response, and a renewed sex drive — all
+              in one potent formula.
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper ingredientSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="ingredient-card p-4">
+                <img src="images/fi_6.png" alt="icon" />
+                <h5>Tadalafil</h5>
+                <h6>The Long-Lasting Dynamo</h6>
+                <p class="small">
+                  Keeps your performance going all night. Supported by clinical
+                  science, it’s the secret weapon for duration and reliability.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ingredient-card p-4">
+                <img src="images/fi_7.png" alt="icon" />
+                <h5>Sildenafil</h5>
+                <h6>The Fast-Responder</h6>
+                <p class="small">
+                  Like flipping a switch — gets you ready in record time. Be
+                  spontaneous, no more planning or waiting.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ingredient-card p-4">
+                <img src="images/fi_1.png" alt="icon" />
+                <h5>Vardenafil</h5>
+                <h6>The Desire Igniter</h6>
+                <p class="small">
+                  Revives your drive from the inside out. Supports arousal and
+                  motivation, so desire isn’t just physical — it’s mental too.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="ingredient-card p-4">
+                <img src="images/fi_2.png" alt="icon" />
+                <h5>L-Arginine</h5>
+                <h6>The Blood-Flow Boost</h6>
+                <p class="small">
+                  Supercharges your performance with peak vascular support. Say
+                  goodbye to constriction and hello to fuller, harder erections.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ingredients-footer">
+          <p>
+            Designed to target every angle — your body, your desire, your
+            confidence. Experience results that last, respond fast, and feel
+            natural.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mint-section">
+      <div class="container-fluid">
+        <div class="mint-wrapper">
+          <!-- Left Image Card -->
+          <div class="mint-card mint-left">
+            <img src="images/mint-left.png" alt="Mint Tablet" />
+            <div class="mint-content">
+              <h3>
+                Tasty mint tablet — dissolves fast <br />
+                for discreet, convenient relief.
+              </h3>
+            </div>
+          </div>
+
+          <!-- Right Image Card -->
+          <div class="mint-card mint-right">
+            <img src="images/mint-right.png" alt="Product Box" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps-section">
+      <div class="container-fluid">
+        <div class="steps-wrapper">
+          <h2 class="steps-title">
+            3 Simple Steps to Restore Performance and Spark
+          </h2>
+
+          <div class="steps-container">
+            <!-- Step 1 -->
+            <div class="step-card red">
+              <div class="step-card-header">
+                <span class="step-label">Step 1</span>
+                <div class="step-arrow">→</div>
+              </div>
+              <div class="card-mid-cont">
+                <h3>Quick online consult</h3>
+                <p>
+                  Complete a short, private questionnaire reviewed by a
+                  board-certified doctor.
+                </p>
+              </div>
+              <small>Take 5 minutes</small>
+            </div>
+
+            <!-- <div class="step-arrow">→</div> -->
+
+            <!-- Step 2 -->
+            <div class="step-card gray">
+              <div class="step-card-header">
+                <span class="step-label">Step 2</span>
+                <div class="step-arrow">→</div>
+              </div>
+              <div class="card-mid-cont">
+                <h3>Doctor approval</h3>
+                <p>
+                  Receive a safe, personalized prescription recommendation from
+                  a licensed provider.
+                </p>
+              </div>
+              <small>Within 24 hours</small>
+            </div>
+
+            <!--  -->
+
+            <!-- Step 3 -->
+            <div class="step-card green">
+              <div class="step-card-header">
+                <span class="step-label">Step 3</span>
+                <div class="step-arrow">→</div>
+              </div>
+              <div class="card-mid-cont">
+                <h3>Discreet delivery</h3>
+                <p>
+                  Medication ships free from FDA-registered pharmacies to almost
+                  every U.S. state.
+                </p>
+              </div>
+              <small>Within 3–5 days</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section">
+      <div class="container">
+        <h2 class="section-title">
+          What Guys Say About Getting<br />Back to Normal
+        </h2>
+
+        <div class="reviews-wrapper" id="reviewsWrapper">
+          <!-- Review Card -->
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">
+              “Finally feel like myself again—less stress, more nights out with
+              confidence. My partner noticed the difference."
+            </p>
+            <div class="review-user">
+              <img src="images/user1.png" class="user-img" />
+              <div>
+                <strong>Mark, 48</strong>
+                <span><img src="images/check.png" alt="icon" /> Verified</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card mid-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">
+              "Back to spontaneous weekends and not planning every moment. Feels
+              natural."
+            </p>
+            <div class="review-user">
+              <img src="images/user2.png" class="user-img" />
+              <div>
+                <strong>Ben, 36</strong>
+                <span><img src="images/check.png" alt="icon" /> Verified</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">
+              "Simple process, discreet shipping, and it actually fits our
+              lifestyle. Worth trying."
+            </p>
+            <div class="review-user">
+              <img src="images/user3.png" class="user-img" />
+              <div>
+                <strong>Sean, 40</strong>
+                <span><img src="images/check.png" alt="icon" /> Verified</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">
+              "I didn’t realize how much it was affecting our connection until
+              things changed. We talk more and laugh more now."
+            </p>
+            <div class="review-user">
+              <img src="images/user4.png" class="user-img" />
+              <div>
+                <strong>Sean, 40</strong>
+                <span><img src="images/check.png" alt="icon" /> Verified</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-card mid-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">
+              “Honestly, it made a real difference in how I show up with my
+              partner. We’re closer and laughing more.”
+            </p>
+            <div class="review-user">
+              <img src="images/user5.png" class="user-img" />
+              <div>
+                <strong>Sean, 40</strong>
+                <span><img src="images/check.png" alt="icon" /> Verified</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">
+              "Quick onset and dependable results. Feels natural — not forced —
+              which is exactly what I wanted."
+            </p>
+            <div class="review-user">
+              <img src="images/user6.png" class="user-img" />
+              <div>
+                <strong>Sean, 40</strong>
+                <span><img src="images/check.png" alt="icon" /> Verified</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">
+              “I was skeptical at first, but this actually works for me. No
+              fuss, no embarrassment — just confidence again.”
+            </p>
+            <div class="review-user">
+              <img src="images/user7.png" class="user-img" />
+              <div>
+                <strong>Sean, 40</strong>
+                <span><img src="images/check.png" alt="icon" /> Verified</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-card mid-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">
+              “Super easy ordering and discreet packaging. Gets me ready when I
+              need it without all the planning.”
+            </p>
+            <div class="review-user">
+              <img src="images/user8.png" class="user-img" />
+              <div>
+                <strong>Sean, 40</strong>
+                <span><img src="images/check.png" alt="icon" /> Verified</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">
+              “Finally a solution that fits our lifestyle, not the other way
+              around.”
+            </p>
+            <div class="review-user">
+              <img src="images/user9.png" class="user-img" />
+              <div>
+                <strong>Sean, 40</strong>
+                <span><img src="images/check.png" alt="icon" /> Verified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mint Bar -->
+      <div class="mint-bar">
+        <div>
+          <img src="images/fi_8.png" alt="icon" /> LEGIT SCRIPT CERTIFIED
+        </div>
+        <div><img src="images/fi_8.png" alt="icon" /> HIPAA COMPLIANT</div>
+        <div>
+          <img src="images/fi_8.png" alt="icon" /> FDA REGISTERED FACILITY
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section py-5">
+      <div class="container-fluid">
+        <h2 class="text-center mb-5 fw-bold">Frequently Asked Questions</h2>
+
+        <div class="accordion" id="faqAccordion">
+          <!-- Item -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq1"
+              >
+                How quickly does it work?
+              </button>
+            </h2>
+            <div
+              id="faq1"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Response times vary by person. The formula combines a
+                rapid-acting ingredient to help reduce onset time and a
+                longer-lasting component for extended effect.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq2"
+              >
+                How long do the effects last?
+              </button>
+            </h2>
+            <div
+              id="faq2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Duration depends on individual factors. The blend includes a
+                long‑acting component designed to extend the window of effect
+                versus short‑acting options.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq3"
+              >
+                Is this a prescription product?
+              </button>
+            </h2>
+            <div
+              id="faq3"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Yes — this is a prescription-strength, doctor-formulated
+                product. Ordering includes a brief medical review to determine
+                suitability.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq4"
+              >
+                How do I get started?
+              </button>
+            </h2>
+            <div
+              id="faq4"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Click “Get Started,” complete a short, secure consultation, and
+                a licensed provider will review your information. Once approved,
+                we ship discreetly to your address.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq5"
+              >
+                Are there side effects?
+              </button>
+            </h2>
+            <div
+              id="faq5"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Like any medication, some users may experience side effects.
+                Common, mild effects associated with the individual ingredients
+                can include headache, flushing, or nausea. Your prescriber will
+                review risks during the consultation.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq6"
+              >
+                How long do the effects last?
+              </button>
+            </h2>
+            <div
+              id="faq6"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Duration depends on individual factors. The blend includes a
+                long‑acting component designed to extend the window of effect
+                versus short‑acting options.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq7"
+              >
+                Can I take this with other medications?
+              </button>
+            </h2>
+            <div
+              id="faq7"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Some medications and conditions can interact with components in
+                this formula. Disclose all medications and medical history
+                during the consultation so the clinician can assess safety.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq8"
+              >
+                Is it safe for men with heart conditions?
+              </button>
+            </h2>
+            <div
+              id="faq8"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                If you have heart disease, low blood pressure, uncontrolled high
+                blood pressure, or are taking nitrates, you should consult your
+                cardiologist before using any ED therapy. Our clinical review
+                will flag potential risks and refer you to appropriate care if
+                needed.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq9"
+              >
+                How discreet is the packaging and billing?
+              </button>
+            </h2>
+            <div
+              id="faq9"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                Orders are shipped in plain packaging without product details on
+                the box. Billing descriptors are discreet; you can review
+                specifics at checkout.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq10"
+              >
+                Can I try a sample or trial?
+              </button>
+            </h2>
+            <div
+              id="faq10"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                We may offer trial or starter packs depending on promotions.
+                Check the pricing section or contact customer support for
+                current offers.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq11"
+              >
+                What if it doesn’t work for me?
+              </button>
+            </h2>
+            <div
+              id="faq11"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faqAccordion"
+            >
+              <div class="accordion-body">
+                We offer a satisfaction policy (details at checkout). If you
+                have concerns about effectiveness or side effects, contact our
+                medical team for guidance and possible adjustments.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="brb-footer">
+      <div class="footer-container">
+        <!-- Top Content -->
+        <div class="footer-top">
+          <!-- Left Content -->
+          <div class="footer-left">
+            <h2>
+              Perform Better.<br />
+              Feel Stronger.<br />
+              Every Time.
+            </h2>
+
+            <a href="#" class="footer-btn">
+              Get Started Now
+              <span>→</span>
+            </a>
+          </div>
+
+          <!-- Right Links -->
+          <div class="footer-right">
+            <div class="footer-links">
+              <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Linkedin</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-links">
+              <ul>
+                <li><a href="#">Our Formula</a></li>
+                <li><a href="#">Steps</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Big Background Brand -->
+        <div class="footer-bottom">
+          <div class="footer-brand">
+            <img src="images/footer-logo.png" alt="footer logo" />
+          </div>
+
+          <!-- Bottom Copyright -->
+          <div class="crt">©2026. All right reserved</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const totalSlides = document.querySelectorAll(
+          ".ingredientSwiper .swiper-slide",
+        ).length;
+
+        const swiper = new Swiper(".ingredientSwiper", {
+          spaceBetween: 20,
+          loop: totalSlides > 1,
+          speed: 800,
+
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+
+          breakpoints: {
+            0: {
+              slidesPerView: 1.15, // Mobile & Tablet (0 - 991px)
+              centeredSlides: false,
+            },
+            992: {
+              slidesPerView: 4, // Desktop (992px and up)
+              allowTouchMove: totalSlides > 4,
+              autoplay: false,
+            },
+          },
+        });
+
+        // Disable slider completely if 4 or less slides on desktop
+        if (window.innerWidth >= 992 && totalSlides <= 4) {
+          swiper.disable();
+        }
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const wrapper = document.getElementById("reviewsWrapper");
+
+        if (window.innerWidth <= 991) {
+          const cards = wrapper.querySelectorAll(".review-card");
+          let index = 0;
+
+          setInterval(() => {
+            index++;
+
+            if (index >= cards.length) {
+              index = 0;
+            }
+
+            wrapper.scrollTo({
+              left: cards[index].offsetLeft - 20, // match padding-left
+              behavior: "smooth",
+            });
+          }, 3000);
+        }
+      });
+    </script>
+  </body>
+</html>
